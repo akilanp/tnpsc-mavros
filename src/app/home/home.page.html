@@ -1,0 +1,60 @@
+<ion-content>
+  <div class="main_content_div">
+  
+  <ion-buttons slot="start" class="menu_btn">
+  <ion-menu-button color="light"></ion-menu-button>
+  </ion-buttons>
+  
+  <div class="user_div">
+  <div class="first_div">
+  <ion-label class="welcome">Hello</ion-label>
+  <ion-label class="username">there!</ion-label>
+  </div>
+  <div class="user_back" [style.backgroundImage]="'url(assets/11.png)'"></div>
+</div>
+  <div class="content_div animated bounceInUp">
+  <ion-label class="hello_lbl">All the best for your Exams.</ion-label>
+  
+  <ion-grid fixed>
+  <ion-row>
+  <ion-col size="6" (click)="goTosubject()">
+  <div class="col_div">
+  <img src="assets\sbooks.png">
+  <ion-label>school books</ion-label>
+  </div>
+  </ion-col>
+  <ion-col size="6" (click)="goTosubject()">
+    <div class="col_div">
+    <img src="assets\materials.png">
+    <ion-label>materials</ion-label>
+    </div>
+    </ion-col>
+    <ion-col size="6" (click)="goTosubject()">
+      <div class="col_div">
+      <img src="assets\pyqp.png">
+      <ion-label>Previous Year question papers</ion-label>
+      </div>
+      </ion-col>
+      <ion-col size="6" (click)="goTonews()">
+        <div class="col_div">
+        <img src="assets\news.png">
+        <ion-label>News</ion-label>
+        </div>
+        </ion-col>
+    <ion-col size="6" (click)="goTomain()">
+    <div class="col_div">
+    <img src="assets\quiz.png">
+    <ion-label>quiz</ion-label>
+    </div>
+    </ion-col>
+    <ion-col size="6" (click)="goTonews()">
+      <div class="col_div">
+      <img src="assets\courses.png">
+      <ion-label>Courses</ion-label>
+      </div>
+      </ion-col>
+  </ion-row>
+  </ion-grid>
+  </div>
+  </div>
+</ion-content>

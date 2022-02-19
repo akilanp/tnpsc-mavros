@@ -1,0 +1,7 @@
+{
+  "name": "tnpsc-mavros",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
